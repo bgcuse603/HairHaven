@@ -1,0 +1,47 @@
+body {
+  background-color: lightseagreen;
+}
+
+nav {
+  background-color: lightseagreen;
+}
+
+h2 {
+  font-size: large;
+}
+
+#home-div {
+  background-color: white;
+  text-align: center;
+}
+
+#aboutMe-div {
+  background-color: white;
+  text-align: center;
+}
+
+#ourWork-div {
+  background-color: white;
+  text-align: center;
+}
+
+#ourTeam-div {
+  background-color: white;
+  text-align: center;
+}
+
+#retail-div {
+  background-color: white;
+  text-align: center;
+}
+
+#contactUs-div {
+  background-color: white;
+  text-align: center;
+}
+
+/*  */
+/*  */
+/* Don't forget media query */
+/*  */
+/*  */

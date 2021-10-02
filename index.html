@@ -4,29 +4,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src= script.js defer></script>
   <title>Hair Haven Salon</title>
-  <script src= script.js></script>
-  <!--Follow <script> is directly from Facebook developer to allow for proper API-->
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '544747643478230',
-        xfbml      : true,
-        version    : 'v12.0'
-      });
-      FB.AppEvents.logPageView();
-    };
-  
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-  </script>
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <a href="#home-div">Home</a>
+      <a href="#aboutUs-div">About Us</a>
+      <a href="#ourWork-div">Our Work</a>
+      <a href="#ourTeam-div">Our Team</a>
+      <a href="#retail-div">Retail</a>
+      <a href="#contactUs-div">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <div id="#home-div">
+      <h2>HOME</h2>
+    </div>
+    <div id="#aboutMe-div">
+      <h2>ABOUT ME</h2>
+    </div>
+    <div id="#ourWork-div">
+      <h2>OUR WORK</h2>
+    </div>
+    <div id="#ourTeam-div">
+      <h2>OUR TEAM</h2>
+    </div>
+    <div id="#retail-div">
+      <h2>RETAIL</h2>
+    </div>
+  </main>
+  <footer>
+    <div id="#contactUs-div">
+      <h2>CONTACT US</h2>
+      <button>CONTACT US</button>
+    </div>
+  </footer>
 </body>
 </html>
