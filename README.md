@@ -95,7 +95,7 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|October 1| Prompt / Wireframes / Priority Matrix / Timeframes | In Progress
+|October 1| Prompt / Wireframes / Timeframes | Complete
 |October 1| Project Approval | Complete
 |October 2-3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |October 4-5 | Actual code | Incomplete
@@ -103,8 +103,6 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 |October 7| MVP | Incomplete
 |October 8| Presentations | Incomplete
 
-## Priority Matrix
-tbd
 
 ## Timeframes
 
@@ -112,11 +110,11 @@ tbd
 | --- | :---: |  :---: | :---: | 
 | Pseudocode Javascript | H | 3 hr| hrs | 
 | HTML and Javascript Structure| H | 6 hrs| hrs | 
-| Add/test axios API call| H | 3 hrs| hrs | 
+| Add/test fetch of API call| H | 3 hrs| hrs | 
 | Adding clickable buttons and Event Listeners | H | 3 hrs| hrs | 
 | Incorporating Flexbox | H | 3 hrs| hrs | 
 | Styling page with CSS | H | 5 hrs| hrs | 
 | Pulling Appropriate data from API | H | 4 hrs| hrs | 
 | Setting and Styling Media Queries | H | 3 hrs| hrs | 
-| Styling Background Image| H | 3 hrs| hrs | 
+| Styling Images| H | 3 hrs| hrs | 
 | Total | H | 33 hrs|  hrs | 
