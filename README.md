@@ -73,7 +73,7 @@ http://makeup-api.herokuapp.com/api/v1/products.json
 
 ## Wireframes
 
-(In progress)
+https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 
 ### MVP/PostMVP
 
