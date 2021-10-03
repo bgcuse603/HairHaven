@@ -5,11 +5,12 @@ https://github.com/bgcuse603/HairHaven
 ## Project Description
 
 App Title: Hair Haven Salon
+
 App Description: Business website for local salon.
 
 ## API and Data Sample
 
-Instgram API snippet for Username SalonHairHaven
+Instagram API snippet for Username SalonHairHaven
 
 ```
  "data": [
