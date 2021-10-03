@@ -4,69 +4,49 @@ https://github.com/bgcuse603/HairHaven
 
 ## Project Description
 
-This will be a business site to serve as the online presence for a local hair salon.
+App Title: Hair Haven Salon
+App Description: Business website for local salon.
 
 ## API and Data Sample
 
-http://makeup-api.herokuapp.com/api/v1/products.json
+Instgram API snippet for Username SalonHairHaven
 
 ```
-  {
-        "id": 1048,
-        "brand": "colourpop",
-        "name": "Lippie Pencil",
-        "price": "5.0",
-        "price_sign": "$",
-        "currency": "CAD",
-        "image_link": "https://cdn.shopify.com/s/files/1/1338/0845/collections/lippie-pencil_grande.jpg?v=1512588769",
-        "product_link": "https://colourpop.com/collections/lippie-pencil",
-        "website_link": "https://colourpop.com",
-        "description": "Lippie Pencil A long-wearing and high-intensity lip pencil that glides on easily and prevents feathering. Many of our Lippie Stix have a coordinating Lippie Pencil designed to compliment it perfectly, but feel free to mix and match!",
-        "rating": null,
-        "category": "pencil",
-        "product_type": "lip_liner",
-        "tag_list": [
-            "cruelty free",
-            "Vegan"
-        ],
-        "created_at": "2018-07-08T23:45:08.056Z",
-        "updated_at": "2018-07-09T00:53:23.301Z",
-        "product_api_url": "http://makeup-api.herokuapp.com/api/v1/products/1048.json",
-        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/001/048/original/open-uri20180708-4-13okqci?1531093614",
-        "product_colors": [
-            {
-                "hex_value": "#B28378",
-                "colour_name": "BFF Pencil"
-            },
-            {
-                "hex_value": "#A36B5E",
-                "colour_name": "951 Pencil"
-            },
-            {
-                "hex_value": "#966A60",
-                "colour_name": "Beeper Pencil"
-            },
-            {
-                "hex_value": "#8F5954",
-                "colour_name": "Oh Snap Pencil"
-            },
-            {
-                "hex_value": "#975348",
-                "colour_name": "Curvii Pencil"
-            },
-            {
-                "hex_value": "#865B69",
-                "colour_name": "Lumiere Pencil"
-            },
-            {
-                "hex_value": "#8E474D",
-                "colour_name": "Bumble Pencil"
-            },
-            {
-                "hex_value": "#5F2820",
-                "colour_name": "BFF Pencil 3"
-            },
-            {
+ "data": [
+        {
+            "id": "17889724469442200",
+            "caption": "Joining our team is @hairbyshannonkermel!!! Shannon started her career in Boston, MA and has been doing hair for 13 years. She specializes in blonding, but loves to do all colors, cuts, and styles. Shannon is accepting new clients. You can contact her by text for appointments at 617.816.7210",
+            "media_url": "https://scontent-bos3-1.cdninstagram.com/v/t51.29350-15/243837245_6196020707139965_5161379048064536144_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=osz8pDUvSm8AX9FAdiK&_nc_ht=scontent-bos3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=6c3f247655f421199a72188a44ef1623&oe=615E8BF6",
+            "media_type": "IMAGE",
+            "permalink": "https://www.instagram.com/p/CUiuKImFf3g/"
+        },
+        {
+            "id": "18015902251336874",
+            "caption": "Can you believe it’s the first day of October?! That means it’s time for a color change! 🤗\n\n(hair done by @kellyparadiehair)\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#hairoftheday #magentahair #purplepinkhair #longbob #wellalove #olaplex #nhhairstylist #hairhavennh #bestofbalayage #nhsalon #nhhair #wella #milkshakehair  #americansalong #hottoolspro #modernsalon #behindthechaird #hairinspo #bangstyle #hairoftheday #hairdressermagic #licensedtocreate #btcpics",
+            "media_url": "https://scontent-bos3-1.cdninstagram.com/v/t51.29350-15/243662650_862945397927639_1012495626845770665_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=2srAvn28cxoAX89JmKE&_nc_ht=scontent-bos3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=bf8d2b410208f35e0f795d6016ddf33f&oe=615E9FFC",
+            "media_type": "IMAGE",
+            "permalink": "https://www.instagram.com/p/CUfDXaHLxA8/"
+        },
+        {
+            "id": "17923472755758324",
+            "caption": "Blonde with a blowout 🤍\n \n(hair done by @hairbycourtney.klocek )\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#mastersofbalayage #wellalove #olaplex #nhhairstylist #hairhavennh #bestofbalayage #nhsalon #nhhair #wellalove #wella #milkshakehair  #americansalong #hottoolspro #modernsalon #behindthechaird #hairinspo #bangstyle #hairoftheday #hairdressermagic #licensedtocreate #btcpics #blondehair #blonde #blondehighlights",
+            "media_url": "https://scontent-bos3-1.cdninstagram.com/v/t51.29350-15/242728411_186127806928609_6824848257975865623_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=ikzUJFZH9F4AX-UcwW3&_nc_ht=scontent-bos3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=3b6df044cb6d1cdb81c3c5245b687389&oe=615F0536",
+            "media_type": "IMAGE",
+            "permalink": "https://www.instagram.com/p/CUOWU-pNKOH/"
+        },
+        {
+            "id": "18106383640300668",
+            "caption": "Perfection 👩🏼‍🦰\n\n(hair done by @courtney_irzyk)\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#copperhair #fallhair #wellalove #olaplex #nhhairstylist #hairhavennh #bestofbalayage #nhsalon #nhhair #wellahair #wellaillumina #wella #milkshakehair  #americansalong #hottoolspro #modernsalon #behindthechaird #hairinspo #bangstyle #hairoftheday #hairdressermagic #licensedtocreate #btcpics",
+            "media_url": "https://scontent-bos3-1.cdninstagram.com/v/t51.29350-15/242613221_878717319432694_5349463093619771064_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=N8naONqSH_cAX9YRUia&_nc_ht=scontent-bos3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=244a42b644a840d7a927c668b4028bf8&oe=615E4096",
+            "media_type": "IMAGE",
+            "permalink": "https://www.instagram.com/p/CUNLHVQlv2-/"
+        },
+        {
+            "id": "17941702924592664",
+            "caption": "Keratin smoothing treatment 🪄\n\n(hair done by @caryannstavrouhair )\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\nkeratincomplex #smoothhair #nhhairstylist #hairhavennh #keratintreatment #nhsalon #nhhair #coppola #americansalong #hottoolspro #modernsalon #behindthechaird #hairinspo #bangstyle #hairoftheday #hairdressermagic #licensedtocreate #btcpics",
+            "media_url": "https://scontent-bos3-1.cdninstagram.com/v/t51.29350-15/242634082_159014856390398_7031961029625956332_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=EdByEwg_wHoAX8HGaGG&_nc_oc=AQmuan3eSjhZB1miPrZtMJRydXgDWmF7A9U5EIpXke5Gq5IflI4OBeifITVlJP3z9Y4&_nc_ht=scontent-bos3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=f5a80fc6634916a803abe2c0fafd5c68&oe=615E81FD",
+            "media_type": "IMAGE",
+            "permalink": "https://www.instagram.com/p/CULd5c8lKFo/"
 
 ```
 
@@ -96,7 +76,7 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 | ----------- | -------------------------------------------- | ---------- |
 | October 1   | Prompt / Wireframes / Timeframes             | Complete   |
 | October 1   | Project Approval                             | Complete   |
-| October 2-3 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
+| October 2-3 | Core Application Structure (HTML, CSS, etc.) | Complete |
 | October 4-5 | Actual code                                  | Incomplete |
 | October 6   | Initial Clickable Model                      | Incomplete |
 | October 7   | MVP                                          | Incomplete |
@@ -106,9 +86,9 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 
 | Component                                    | Priority | Estimated Time | Actual Invested |
 | -------------------------------------------- | :------: | :------------: | :-------------: |
-| Pseudocode Javascript                        |    H     |      3 hr      |       hrs       |
+| Pseudocode Javascript                        |    H     |      3 hr      |      2 hrs      |
 | HTML and Javascript Structure                |    H     |     6 hrs      |       hrs       |
-| Add/test fetch API call                      |    H     |     3 hrs      |       hrs       |
+| Add/test fetch API call                      |    H     |     3 hrs      |      10 hrs     |
 | Adding clickable buttons and Event Listeners |    H     |     3 hrs      |       hrs       |
 | Incorporating Flexbox                        |    H     |     3 hrs      |       hrs       |
 | Styling page with CSS                        |    H     |     5 hrs      |       hrs       |
