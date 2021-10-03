@@ -1,5 +1,4 @@
-console.log('Hello World');
-console.log('update');
+console.log('open? yes');
 
 /*
 // Pseudo Code
@@ -13,8 +12,10 @@ PostMVP
 - Add text box to capture & log emails for a subscription list.
 */
 
+
 const fetchData = () => {
-  const APIUrl = `http://makeup-api.herokuapp.com/api/v1/products.json`;
+
+  const APIUrl = `https://graph.instagram.com/6431553190218256/media?fields=id,caption,media_url,media_type,permalink&access_token=IGQVJYaXd1WjJCNktrMkdNbDc2d0xITTFJMUl5YndKWXpkcWF4UHpGYnBFOGhNWXp3bXhuVUlCWHBObU5XY2RkVEs2VlZAFR1pWOEs4b3dWVmZArX0FsdHpVMnRhM1JIU3VpMkc1N3ZAoOHZA5Yl9Xam5FTwZDZD`;
 
   console.log('Making our request');
 
@@ -22,7 +23,7 @@ const fetchData = () => {
     .then((res) => { return res.json() })
     .then((resJSON) => {
 
-      showPullData(resJSON);
+      showData(resJSON.data);
       
     })
     // .catch((err) => {
@@ -31,36 +32,18 @@ const fetchData = () => {
     // });
 }
 
-
-const showPullData = (pullData) => {
+const showData = (pullData) => {
   console.log(pullData);
 
-  const pullDataDiv = document.querySelector('#retail-div');
-  // pullDataDiv.innerHTML = ''; //Empty out what was in there before writing new data to it
 
-  // const imageTag = document.createElement('img');
-  const nameTag = document.createElement('p');
+  document.querySelector('.postImg').src = pullData[0].media_url;
 
-  nameTag.innerText = pullData[0].brand;
-  // imageTag.src = pullData[0].api_featured_image;
-  console.log(nameTag.innerText);
-  // Adjust Image size
-  // imageTag.style.width = '50%';
-
-  pullDataDiv.appendChild(nameTag);
-    // imageTag,
 
 }
 
 fetchData();
 
-// const submitButton = document.querySelector('#retail-div');
-// submitButton.addEventListener('click', () => {
-//   //ev.preventDefault();
-//   console.log('the button was clicked');
-//   // const inputData = document.querySelector('#retail-div').value;
-//   fetchData();
-// });
+
 
 console.log('bottom of the file');
 document.addEventListener('DOMContentLoaded', () => {
