@@ -18,7 +18,7 @@ const fetchData = () => {
   const APIUrl = `https://graph.instagram.com/6431553190218256/media?fields=id,caption,media_url,media_type,permalink&access_token=IGQVJYaXd1WjJCNktrMkdNbDc2d0xITTFJMUl5YndKWXpkcWF4UHpGYnBFOGhNWXp3bXhuVUlCWHBObU5XY2RkVEs2VlZAFR1pWOEs4b3dWVmZArX0FsdHpVMnRhM1JIU3VpMkc1N3ZAoOHZA5Yl9Xam5FTwZDZD`;
 
   console.log('Making our request');
-         
+
   fetch(APIUrl)
     .then((res) => { return res.json() })
     .then((resJSON) => {
@@ -34,8 +34,29 @@ const fetchData = () => {
 
 const showData = (pullData) => {
   console.log(pullData);
+
+  // Featured Section 
   document.querySelector('.postImg').src = pullData[0].media_url;
-  document.querySelector('.postCap').src = pullData[0].caption;
+  
+  const capTag = document.createElement('p');
+  capTag.innerText = pullData[0].caption;
+  console.log(capTag.innerText);
+  capTag.setAttribute("class","caption")
+  
+  const featSection = document.querySelector('#featured-section');
+  featSection.append(capTag);
+
+  // Our Work Section
+  for (let i = 2; i < 6; i++){
+    const imageTag = document.createElement('img');
+    imageTag.src = pullData[i].media_url;
+    
+    const workSection = document.querySelector('#ourWork-div');
+    imageTag.setAttribute("class","work-img")
+    workSection.append(imageTag);
+  }
+
+
 }
 
 fetchData();

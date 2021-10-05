@@ -97,30 +97,44 @@ nav a:hover {
   /* flex: 0 1 50px; */
 }
 
-/* Work Examples Section */
-#ourWork-div {
+.caption {
   background-color: white;
-  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+/* Work Examples Section */
+.work-img {
+  height: 20vh;
+}
+
+#ourWork-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Team Section */
 /* #ourTeam-div {
-  align-items: center;
+  justify-content: center;
 } */
 
 #teamList {
   display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  flex-flow: row wrap;
-  /* flex: 0 0 auto; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#owner {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
 }
 .owner-img {
-  height: 20vh;
-  align-items: center;
+  height: 25vh;
 }
 .teamMember-img {
   height: 20vh;
+  padding-right: 2px;
+  padding-left: 2px;
 }
 
 /* Retail Section */
