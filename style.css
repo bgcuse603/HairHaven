@@ -1,47 +1,166 @@
+/* Global  */
 body {
-  background-color: lightseagreen;
+  background-color: #ebe4de;
 }
 
-nav {
-  background-color: lightseagreen;
+html {
+  font-family: "Barlow", sans-serif;
 }
 
 h2 {
+  font-size: xx-large;
+  font-family: "Barlow", sans-serif;
+}
+h3 {
   font-size: large;
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+/* Navigation  */
+nav {
+  background-color: #ebe4de;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+nav a {
+  color: #9b9a94;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Home Section */
 #home-div {
-  background-color: white;
-  text-align: center;
+  height: 50%;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #131310;
+  background-image: url("salonChairs.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-#aboutUS-div {
-  background-color: white;
-  text-align: center;
+.logo-img {
+  max-width: 40%;
+  border-radius: 8px;
 }
 
+/* About Us Section */
+#aboutUS-section {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+#aboutBox {
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  height: 30vh;
+  padding: 3vh;
+  margin: 0 auto;
+}
+
+#titleBlocksA {
+  background-color: #131310;
+  color: white;
+  width: 50%;
+  height: 30vh;
+  padding: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* Featured Section  */
+.postImg {
+  background-color: white;
+  display: flex;
+  height: 30vh;
+  width: 50%;
+  /* flex: 0 1 50px; */
+}
+
+/* Work Examples Section */
 #ourWork-div {
   background-color: white;
   text-align: center;
 }
 
-#ourTeam-div {
-  background-color: white;
-  text-align: center;
+/* Team Section */
+/* #ourTeam-div {
+  display: flex;
+  /* justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 75%; 
+} */
+
+#teamList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
+}
+.teamMember-img {
+  height: 25vh;
+  width: 25vm;
 }
 
-#retail-div {
+/* Retail Section */
+#retailImageGallery {
   background-color: white;
-  text-align: center;
+  padding: 2px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-evenly;
+}
+.retail-img {
+  height: 30vh;
 }
 
+/* Contact Us Section */
 #contactUs-div {
   background-color: white;
   text-align: center;
 }
 
-/*  */
-/*  */
-/* Don't forget media query */
-/*  */
-/*  */
+/* Media Query */
+@media (max-width: 500px) {
+  body {
+    background-color: #e0cbc4;
+  }
+  #titleBlocks {
+    height: 3vh;
+  }
+  #aboutBox {
+    height: 25vh;
+    padding: 2px;
+    vertical-align: middle;
+  }
+  .postImg {
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+  }
+  .teamMember-img {
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+  }
+  .retail-img {
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+  }
+}

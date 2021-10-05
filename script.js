@@ -34,11 +34,8 @@ const fetchData = () => {
 
 const showData = (pullData) => {
   console.log(pullData);
-
-
   document.querySelector('.postImg').src = pullData[0].media_url;
-
-
+  document.querySelector('.postCap').src = pullData[0].caption;
 }
 
 fetchData();
