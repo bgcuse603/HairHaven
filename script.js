@@ -18,7 +18,7 @@ const fetchData = () => {
   const APIUrl = `https://graph.instagram.com/6431553190218256/media?fields=id,caption,media_url,media_type,permalink&access_token=IGQVJYaXd1WjJCNktrMkdNbDc2d0xITTFJMUl5YndKWXpkcWF4UHpGYnBFOGhNWXp3bXhuVUlCWHBObU5XY2RkVEs2VlZAFR1pWOEs4b3dWVmZArX0FsdHpVMnRhM1JIU3VpMkc1N3ZAoOHZA5Yl9Xam5FTwZDZD`;
 
   console.log('Making our request');
-
+         
   fetch(APIUrl)
     .then((res) => { return res.json() })
     .then((resJSON) => {
