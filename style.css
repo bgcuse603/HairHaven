@@ -1,18 +1,20 @@
 /* Global  */
 body {
   background-color: #ebe4de;
+  margin: 0;
 }
 
 html {
   font-family: "Barlow", sans-serif;
+  font-size: 20px;
 }
 
 h2 {
-  font-size: xx-large;
+  font-size: 40px;
   font-family: "Barlow", sans-serif;
 }
 h3 {
-  font-size: large;
+  font-size: 25px;
   font-family: "Barlow", sans-serif;
   font-weight: bold;
 }
@@ -20,7 +22,11 @@ h3 {
 nav {
   background-color: #ebe4de;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  flex-direction: column;
+  padding: 2px;
 }
 
 nav a {
@@ -29,6 +35,10 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  color: red;
+  text-decoration: underline;
+}
 /* Home Section */
 #home-div {
   height: 50vh;
@@ -53,22 +63,24 @@ nav a {
 /* About Us Section */
 #aboutUS-section {
   width: 100%;
-  display: flex;
+  margin: 0 auto;
+  height: fit-content;
   /* flex: 0 0 auto; */
 }
 
 #aboutBox {
   background-color: white;
+  /* display: flex; */
+  /* flex-direction: column; */
   text-align: center;
-  width: 50%;
-  height: 30vh;
-  padding: 3vh;
-  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  padding: 2px;
 }
 
 #titleBlocksA {
   color: #131310;
-  width: 50%;
+  width: 100%;
   height: 3vh;
   padding: 3vh;
   display: flex;
@@ -130,7 +142,7 @@ nav a {
   text-align: center;
 }
 
-/* Media Query */
+/* Media Query
 @media (max-width: 500px) {
   body {
     background-color: #e0cbc4;
@@ -138,11 +150,11 @@ nav a {
   #titleBlocks {
     height: 3vh;
   }
-  #aboutBox {
+  /* #aboutBox {
     height: 25vh;
     padding: 2px;
     vertical-align: middle;
-  }
+  } 
   .postImg {
     background-color: white;
     width: 100%;
@@ -161,4 +173,4 @@ nav a {
     height: 30vh;
     margin: 0 auto;
   }
-}
+} */
