@@ -47,7 +47,7 @@ const showData = (pullData) => {
   featSection.append(capTag);
 
   // Our Work Section
-  for (let i = 2; i < 6; i++){
+  for (let i = 10; i < 14; i++){
     const imageTag = document.createElement('img');
     imageTag.src = pullData[i].media_url;
     

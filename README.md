@@ -77,7 +77,7 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 | ----------- | -------------------------------------------- | ---------- |
 | October 1   | Prompt / Wireframes / Timeframes             | Complete   |
 | October 1   | Project Approval                             | Complete   |
-| October 2-3 | Core Application Structure (HTML, CSS, etc.) | Complete |
+| October 2-3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
 | October 4-5 | Actual code                                  | Incomplete |
 | October 6   | Initial Clickable Model                      | Incomplete |
 | October 7   | MVP                                          | Incomplete |
@@ -88,12 +88,12 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 | Component                                    | Priority | Estimated Time | Actual Invested |
 | -------------------------------------------- | :------: | :------------: | :-------------: |
 | Pseudocode Javascript                        |    H     |      3 hr      |      2 hrs      |
-| HTML and Javascript Structure                |    H     |     6 hrs      |       hrs       |
-| Add/test fetch API call                      |    H     |     3 hrs      |      10 hrs     |
+| HTML and Javascript Structure                |    H     |     6 hrs      |      5 hrs      |
+| Add/test fetch API call                      |    H     |     3 hrs      |     10 hrs      |
 | Adding clickable buttons and Event Listeners |    H     |     3 hrs      |       hrs       |
 | Incorporating Flexbox                        |    H     |     3 hrs      |       hrs       |
 | Styling page with CSS                        |    H     |     5 hrs      |       hrs       |
-| Pulling Appropriate data from API            |    H     |     4 hrs      |       hrs       |
+| Pulling Appropriate data from API            |    H     |     4 hrs      |      1 hr       |
 | Setting and Styling Media Queries            |    H     |     3 hrs      |       hrs       |
 | Styling Images                               |    H     |     3 hrs      |       hrs       |
 | Total                                        |    H     |     33 hrs     |       hrs       |
