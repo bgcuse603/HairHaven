@@ -139,6 +139,8 @@ nav a:hover {
   justify-content: center;
   background-color: white;
   padding-top: 6px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .owner-img {
   height: 25vh;
@@ -328,7 +330,7 @@ nav a:hover {
     padding: 25px;
   }
   #owner {
-    padding-top: 0px;
+    padding: 0px;
   }
   #teamList {
     justify-content: space-evenly;
@@ -338,5 +340,14 @@ nav a:hover {
     height: 300px;
     width: 100%;
     padding: 25px;
+  }
+}
+@media (min-width: 390px) and (max-width: 769px) {
+  .owner-img {
+    height: 20vh;
+    padding: 0px;
+  }
+  #owner {
+    padding: 0px;
   }
 }
