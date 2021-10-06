@@ -78,9 +78,9 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 | October 1   | Prompt / Wireframes / Timeframes             | Complete   |
 | October 1   | Project Approval                             | Complete   |
 | October 2-3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
-| October 4-5 | Actual code                                  | Incomplete |
-| October 6   | Initial Clickable Model                      | Incomplete |
-| October 7   | MVP                                          | Incomplete |
+| October 4-5 | Actual code                                  | Complete   |
+| October 6   | Initial Clickable Model                      | Complete   |
+| October 7   | MVP                                          | Complete   |
 | October 8   | Presentations                                | Incomplete |
 
 ## Timeframes
@@ -90,10 +90,10 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 | Pseudocode Javascript                        |    H     |      3 hr      |      2 hrs      |
 | HTML and Javascript Structure                |    H     |     6 hrs      |      5 hrs      |
 | Add/test fetch API call                      |    H     |     3 hrs      |     10 hrs      |
-| Adding clickable buttons and Event Listeners |    H     |     3 hrs      |       hrs       |
-| Incorporating Flexbox                        |    H     |     3 hrs      |       hrs       |
-| Styling page with CSS                        |    H     |     5 hrs      |       hrs       |
+| Adding clickable buttons and Event Listeners |    H     |     3 hrs      |      1 hrs      |
+| Incorporating Flexbox                        |    H     |     3 hrs      |      3 hrs      |
+| Styling page with CSS                        |    H     |     5 hrs      |      6 hrs      |
 | Pulling Appropriate data from API            |    H     |     4 hrs      |      1 hr       |
-| Setting and Styling Media Queries            |    H     |     3 hrs      |       hrs       |
-| Styling Images                               |    H     |     3 hrs      |       hrs       |
+| Setting and Styling Media Queries            |    H     |     3 hrs      |      4 hrs      |
+| Styling Images                               |    H     |     3 hrs      |      5 hrs      |
 | Total                                        |    H     |     33 hrs     |       hrs       |
