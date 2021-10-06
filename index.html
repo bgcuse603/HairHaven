@@ -15,11 +15,11 @@
   <header>
     <nav>
       <a href="#home-div">Home</a>
-      <a href="#aboutUs-div">About Us</a>
-      <a href="#ourWork-div">Recent Work</a>
+      <a href="#aboutUs-section">About Us</a>
+      <a href="#ourWork-section">Recent Work</a>
       <a href="#ourTeam-div">Our Team</a>
       <a href="#retail-div">Available Retail</a>
-      <a href="#contactUs-div">Contact Us</a>
+      <a href="#contactUs-section">Contact Us</a>
     </nav>
   </header>
   <main>
@@ -72,21 +72,33 @@
   
     <section id="retail-div">
       <div id="titleBlocks"><h2>AVAILABLE RETAIL</h2></div>
+      <div id="retailSub-div"><h3>Living Proof Hair Products</h3></div>
       <div id="retailImageGallery">
       <div><img src="photos/livingProof1.jpeg" alt="livingProofHairProduct" class="retail-img"></div>
       <div><img src="photos/livingProof2.jpeg" alt="livingProofHairProduct" class="retail-img"></div>
       <!-- <div><img src="photos/livingProof3.jpeg" alt="livingProofHairProduct" class="retail-img"></div> -->
     </div>
     </section>
-    <section id="contactUs-div">
+    <section id="contactUs-section">
       <div id="titleBlocks">
         <h2>CONTACT US</h2>
       </div>
-      <!-- <button>CONTACT US</button> -->
+      <div id="contactBlock">
+          <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" id="userName">
+          <input type="text" name="email" placeholder="Email" id="userEmail">
+          <input type="text" name="phone" placeholder="Phone Number" id="userPhone">
+          <input type="text" name="message" placeholder="Message" id="userMessage">
+          <input type="submit" placeholder="sendMessage" id="formSubmit">
+          </form>
+
+      </div>
     </section>
   </main>
   <footer>
-
+    <section id="footer">
+      <p>©Brianna G Groden 2021</p>
+    </section>
   </footer>
 </body>
 </html>
