@@ -18,6 +18,19 @@ h3 {
   font-size: 25px;
   font-family: "Barlow", sans-serif;
 }
+
+#titleBlocks,
+#titleBlocks_A {
+  color: #131310;
+  background-color: #ebe4de;
+  width: 100%;
+  height: fit-content;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  justify-content: center;
+}
 /* Navigation  */
 nav {
   background-color: #ebe4de;
@@ -65,29 +78,15 @@ nav a:hover {
   width: 100%;
   margin: 0 auto;
   height: fit-content;
-  /* flex: 0 0 auto; */
 }
 
-#aboutBox {
+#aboutBox_A,
+#aboutBox_B {
   background-color: white;
-  /* display: flex; */
-  /* flex-direction: column; */
   text-align: center;
   width: 100%;
-  height: 300px;
+  height: 150px;
   padding: 2px 0;
-}
-
-#titleBlocks {
-  color: #131310;
-  background-color: #ebe4de;
-  width: 100%;
-  height: fit-content;
-  padding: 5px 0;
-  display: flex;
-  align-items: center;
-  vertical-align: center;
-  justify-content: center;
 }
 
 /* Featured Section  */
@@ -128,10 +127,6 @@ nav a:hover {
 }
 
 /* Team Section */
-/* #ourTeam-div {
-  justify-content: center;
-} */
-
 #teamList {
   display: flex;
   flex-wrap: wrap;
@@ -183,15 +178,24 @@ nav a:hover {
 #subscribe-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: white;
+  vertical-align: middle;
   padding: 4px;
 }
+
+#subscribeBlock {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
 #subscribe-form {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
+  vertical-align: middle;
   align-content: center;
   background-color: white;
   padding: 10px;
@@ -232,7 +236,107 @@ nav a:hover {
   justify-content: center;
 }
 
-/* Media Query
-@media (max-width: 500px) {
+/* Media Query */
+@media (min-width: 770px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+  #home-div {
+    height: 500px;
+  }
 
-} */
+  .logo-img {
+    width: 30%;
+  }
+  h2 {
+    font-size: 45px;
+    font-family: "Barlow", sans-serif;
+  }
+  h3 {
+    font-size: 35px;
+    font-family: "Barlow", sans-serif;
+  }
+  html {
+    font-size: 30px;
+    font-family: "Barlow", sans-serif;
+  }
+  #aboutUS-section {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    height: 400px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  #aboutBox_A,
+  #aboutBox_B {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+    height: 400px;
+  }
+  #titleBlocks_A {
+    height: 400px;
+    width: 36%;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  #featured-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 400px;
+  }
+  .postImg {
+    height: 400px;
+    width: 425px;
+  }
+
+  .caption {
+    height: 360px;
+    width: 36%;
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 3px;
+  }
+  .work-img {
+    height: 400px;
+    width: 300px;
+  }
+
+  #ourWork-div {
+    justify-content: space-evenly;
+    flex: 2;
+    padding: 25px;
+  }
+  .owner-img {
+    height: 300px;
+    width: 300px;
+    padding: 25px;
+  }
+  .teamMember-img {
+    height: 300px;
+    width: 300px;
+    padding: 25px;
+  }
+  #owner {
+    padding-top: 0px;
+  }
+  #teamList {
+    justify-content: space-evenly;
+    padding: 25px;
+  }
+  .retail-img {
+    height: 300px;
+    width: 100%;
+    padding: 25px;
+  }
+}
