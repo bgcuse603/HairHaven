@@ -43,7 +43,7 @@ const showData = (pullData) => {
   console.log(capTag.innerText);
   capTag.setAttribute("class","caption")
   
-  const featSection = document.querySelector('#featured-section');
+  const featSection = document.querySelector('#featured-subSection');
   featSection.append(capTag);
 
   // Our Work Section
