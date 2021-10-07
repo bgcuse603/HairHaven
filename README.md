@@ -1,6 +1,10 @@
 # HairHaven
 
+Repo:
 https://github.com/bgcuse603/HairHaven
+
+Deployed site:
+https://bgcuse603.github.io/HairHaven/
 
 ## Project Description
 
@@ -85,15 +89,15 @@ https://www.figma.com/file/fQBnzzCvWWDrV1tu5dozJ6/Wireframing-Copy
 
 ## Timeframes
 
-| Component                                    | Priority | Estimated Time | Actual Invested |
-| -------------------------------------------- | :------: | :------------: | :-------------: |
-| Pseudocode Javascript                        |    H     |      3 hr      |      2 hrs      |
-| HTML and Javascript Structure                |    H     |     6 hrs      |      5 hrs      |
-| Add/test fetch API call                      |    H     |     3 hrs      |     10 hrs      |
-| Adding clickable buttons and Event Listeners |    H     |     3 hrs      |      1 hrs      |
-| Incorporating Flexbox                        |    H     |     3 hrs      |      3 hrs      |
-| Styling page with CSS                        |    H     |     5 hrs      |      6 hrs      |
-| Pulling Appropriate data from API            |    H     |     4 hrs      |      1 hr       |
-| Setting and Styling Media Queries            |    H     |     3 hrs      |      4 hrs      |
-| Styling Images                               |    H     |     3 hrs      |      5 hrs      |
-| Total                                        |    H     |     33 hrs     |       hrs       |
+| Component                         | Priority | Estimated Time | Actual Invested |
+| --------------------------------- | :------: | :------------: | :-------------: |
+| Pseudocode Javascript             |    H     |      3 hr      |      2 hrs      |
+| HTML and Javascript Structure     |    H     |     6 hrs      |      5 hrs      |
+| Add/test fetch API call           |    H     |     3 hrs      |     10 hrs      |
+| Adding clickable buttons          |    H     |     3 hrs      |      1 hrs      |
+| Incorporating Flexbox             |    H     |     3 hrs      |      5 hrs      |
+| Styling page with CSS             |    H     |     5 hrs      |      6 hrs      |
+| Pulling Appropriate data from API |    H     |     4 hrs      |      1 hr       |
+| Setting and Styling Media Queries |    H     |     3 hrs      |      4 hrs      |
+| Styling Images                    |    H     |     3 hrs      |      6 hrs      |
+| Total                             |    H     |     33 hrs     |     40 hrs      |
